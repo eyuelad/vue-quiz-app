@@ -1,4 +1,4 @@
-# hello-vue-2
+# vue-quiz-app
 
 ## Project setup
 ```
