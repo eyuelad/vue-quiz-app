@@ -21,8 +21,10 @@ sleep 2s
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>
-git push -f https://github.com/eyuelad/vue-quiz-app.git gh-pages
+git push -f https://github.com/eyuelad/vue-quiz-app.git master:gh-pages
 
-echo ">>> if push failed run this command -> 'git push -f https://github.com/eyuelad/vue-quiz-app.git gh-pages'"
+echo ">>> if push failed run these commands"
+echo "-> 'cd dist'"
+echo "-> 'git push -f https://github.com/eyuelad/vue-quiz-app.git master:gh-pages'"
 
 cd ..
